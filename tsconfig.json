@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Calendar.tsx", "app/calendar/page.jsx", "app/clinic/page.tsx", "components/Patientdetail.jsx", "app/patientdetail/page.jsx", "components/Clinic.tsx", "components/Clinicprofile.tsx", "components/Doctorprofile.tsx", "components/DoctorsTable.tsx", "components/Header.tsx", "components/Inventory.tsx", "components/LayoutWrapper.tsx", "components/Patient.tsx", "components/Procedure.tsx", "app/inventory/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Calendar.jsx", "app/calendar/page.jsx", "app/clinic/page.tsx", "components/Patientdetail.jsx", "app/patientdetail/page.jsx", "components/Clinic.tsx", "components/Clinicprofile.tsx", "components/Doctorprofile.tsx", "components/DoctorsTable.tsx", "components/Header.tsx", "components/Inventory.tsx", "components/LayoutWrapper.tsx", "components/Patient.tsx", "components/Procedure.tsx", "app/inventory/page.jsx"],
   "exclude": ["node_modules"]
 }
