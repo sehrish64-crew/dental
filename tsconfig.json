@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Calendar.jsx", "app/calendar/page.jsx", "app/clinic/page.tsx", "components/Patientdetail.jsx", "app/patientdetail/page.tsx", "components/Clinic.tsx", "components/Clinicprofile.tsx", "components/Doctorprofile.tsx", "components/DoctorsTable.tsx", "components/Header.tsx", "components/Inventory.tsx", "components/LayoutWrapper.tsx", "components/Patient.tsx", "components/Procedure.tsx"],
+  "exclude": ["node_modules"]
+}
